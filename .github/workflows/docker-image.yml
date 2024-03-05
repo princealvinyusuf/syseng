@@ -42,7 +42,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: nginx.dockerfile
+          file: Dockerfile
           push: true
           tags: |
             princealvinyusuf/syseng:${{ github.sha }}
